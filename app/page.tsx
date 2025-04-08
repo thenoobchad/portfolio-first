@@ -3,7 +3,7 @@ import { FiDownload } from "react-icons/fi";
 
 //COMPONENTS
 
-import Social from "@/components/Social";
+// import Social from "@/components/Social";
 
 export default function Home() {
   return (
@@ -32,9 +32,7 @@ export default function Home() {
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
               </Button>
-              <div className="mb-8 xl:mb-0">
-                <Social />
-              </div>
+              <div className="mb-8 xl:mb-0">{/* <Social on /> */}</div>
             </div>
           </div>
 
