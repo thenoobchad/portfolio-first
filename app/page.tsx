@@ -14,7 +14,7 @@ export default function Home() {
           <div className="text-center xl:text-left">
             <span className="text-xl">Web Developer</span>
             <h1 className="text-[48px] xl:text-[80px] leading-[1.1] font-semibold">
-              Hello, I'm <br />{" "}
+              Hello, I am <br />{" "}
               <span className="text-[#00e187]">Chidi Henre</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
