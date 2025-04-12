@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className={` ${jetBrainMono.className} antialiased`}>
+      <body className={` ${jetBrainMono.className} bg-[#1c1c22] text-white antialiased`}>
         <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>
